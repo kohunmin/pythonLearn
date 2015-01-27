@@ -11,7 +11,7 @@ class HousePark:
         print("%s, %s여행을 가다." % (self.fullname, where))
     def love(self, other):
         print("%s, %s 사랑에 빠졌네" % (self.fullname, other.fullname))
-    def __add__(self, other):
+    def __add__(self, other):jhg
         print("%s, %s 결혼했네" % (self.fullname, other.fullname))
     def __del__(self):
         print("%s 죽네" % self.fullname)
